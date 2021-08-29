@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-(^i0(fs1gj9m+0gp4@fdaudcphejo^^)a1w&ugm5+tc)4$*kx('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','twinks-fashion.herokuapp.com/']
 
@@ -137,5 +137,3 @@ STATICFILES_DIRS = [
 
 MEDIA_URL = "/abcd/"
 MEDIA_ROOT = BASE_DIR
-
-STATIC_ROOT = 'Twinks/static/'
